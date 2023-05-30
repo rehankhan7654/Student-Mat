@@ -152,3 +152,24 @@ body {
   }
 }
 /* Homepage Main End */
+
+/* Enkel Mat Start */
+#main-of-enkelmat-page p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#main-of-enkelmat-page img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#main-of-enkelmat-page img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Enkel Mat End */
