@@ -3,3 +3,32 @@ body {
   font-family: 'Pacifico', cursive;
   color: #a6471a;
 }
+/* Navbar Start */
+.navbar .navbar-nav a {
+  color: #a6471a;
+  font-weight: 400;
+  font-size: 42.8px;
+  line-height: 60px;
+}
+
+.navbar .navbar-nav .nav-link {
+  line-height: 62px;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.custom-toggler.navbar-toggler {
+  border: 1.5px solid #a6471a !important;
+}
+
+.custom-toggler.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(166,71,26,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* Navbar End */
